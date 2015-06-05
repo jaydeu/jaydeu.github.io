@@ -3,22 +3,51 @@
 <head>
 <style>
 body {
-    background-color: #F7E48F;
+    background-color: #F0F0F0;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 30px;			
 }
 
+a {
+		font-weight: bold;
+		text-decoration: none;
+}
+	
+	
+a:link {
+		color: #181860;	
+}	
+a:visited {
+		color: #A8A8C0;	
+}	
+a:hover {
+		color: #F0D8D8;	
+}	
+	
+	
+	
 h1 {
-    color: #674F6E;
-    margin-left: 40px;
+    color: #181860;
 } 
 
 summary {
-    background-color: #E1FAF2;
-    width: 40%;
+    background-color: #A8A8C0;
+    width: 50%;
+	-moz-border-radius: 15px;	
+	border-radius: 25px;
+	padding: 10px;	
+	font-weight: bold;
+ 	
 }
 
 .details2 {
-    left-margin: 25px;
+    margin-left: 3%;
 }
+	
+.details2 summary {
+	background-color: #C0A8C0;	
+		width: 50%;	
+}		
 
 <!--http://www.colourlovers.com/palette/3783434/disapproving -->
 </style>  
@@ -26,40 +55,98 @@ summary {
   
 <body>
 <h1>Data Science Resources</h1>
-<p>A collection of links to things that I intend to read at some point. Also PDFs of my own notes. </p>
+<p>
+This is my collection of data science resources. A green check mark [<font color="#99CC99">&#10004;</font>] or red X [<font color="#CC3333">&#10007;</font>] indicates whether I've finished the course or book.
+</p>
 
+<!-- Python Tree -->
+	
 <details>
 <summary>Python</summary>
 <p>
 <ul>
-<li><a href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a></li>  
-<li><a href="https://www.coursera.org/course/interactivepython1">An Introduction to Interactive Programming in Python (Part I)</a></li>    
+	<li><a href="http://learnpythonthehardway.org/book/" target="_blank">[BOOK][<font color="#99CC99">&#10004;</font>] Learn Python the Hard Way</a></li>  
+<li><a href="https://www.coursera.org/course/interactivepython1" target="_blank">[MOOC][<font color="#99CC99">&#10004;</font>] An Introduction to Interactive Programming in Python (Part I)</a></li>    
+</ul>  
+</p>
+</details>
+	
+<!-- R Tree -->
+	
+<details>
+<summary>R</summary>
+<p>
+<ul>
+	<li><a href="http://adv-r.had.co.nz/" target="_blank">[BOOK][<font color="#CC3333">&#10007;</font>] Advanced R - Hadley Wickham</a></li>     
 </ul>  
 </p>
 </details>
 
+<!-- Machine Learning Tree -->	
+	
 <details>
 <summary>Machine Learning</summary>
 <p>
 <ul>
-<li><a href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a></li>  
-<li><a href="https://www.coursera.org/course/interactivepython1">An Introduction to Interactive Programming in Python (Part I)</a></li>    
+<li><a href="https://www.coursera.org/learn/machine-learning" target="_blank">[MOOC][<font color="#CC3333">&#10007;</font>] Machine Learning - Andrew Ng on Coursera</a></li>    
 </ul>
 
 <details class="details2">
 <summary>Random Forests</summary>
 <p>
 <ul>
-<li><a href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a></li>  
-<li><a href="https://www.coursera.org/course/interactivepython1">An Introduction to Interactive Programming in Python (Part I)</a></li>    
+	<li><a href="https://github.com/jaydeu/datascience/raw/master/RandomForests.pdf">[NOTES] Random Forest Notes</a></li>
+</ul>  
+</p>
+</details>
+	
+<details class="details2">
+<summary>K Nearest Neighbours</summary>
+<p>
+<ul>
+	<li> Nothing here yet.</li>
 </ul>  
 </p>
 </details>
 </p>
 </details>
 
+<!-- General Data Science Tree -->
+	
+<details>
+<summary>General Data Science</summary>
+<p>
+<ul>
+<li><a href="https://www.coursera.org/specialization/jhudatascience/1?utm_source=catalog" target="_blank">[MOOC][<font color="#99CC99">&#10004;</font>] Data Science Specialization on Coursera</a></li>     
+<li><a href="http://datasciencemasters.org/" target="_blank">[VARIOUS][<font color="#CC3333">&#10007;</font>] The Open Source Data Science Masters </a></li>    
+</ul>  
+</p>
+</details>
+	
+<!-- Kaggle Tree -->
+	
+<details>
+<summary>Kaggle Competitions</summary>
+<p>
+	This section includes notes from <a href="http://www.kaggle.com" target="_blank">Kaggle</a> competitions.
+<ul>
+<li><a href="https://medium.com/@chris_bour/6-tricks-i-learned-from-the-otto-kaggle-challenge-a9299378cd61" target="_blank">[ARTICLE][<font color="#99CC99">&#10004;</font>] 6 Tricks I Learned from the OTTO Kaggle Challenge</a></li>     
+</ul>  
+</p>
+</details>
 
+<!-- Communities Tree -->
+	
+<details>
+<summary>Communities and Blogs</summary>
+<p>
+<ul>
+<li><a href="http://www.datatau.com/" target="_blank">[NEWS] DataTau</a></li>     
+</ul>  
+</p>
+</details>
 
+<!--http://htmlivecode.com/-->	
 
 </body>
 </html>
